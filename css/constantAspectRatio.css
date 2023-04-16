@@ -1,15 +1,30 @@
+.container {
+  font-size: 2vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 5vh auto 8vh;
+  min-height: 100vh;
+}
+
 .header {
   background: orangered;
+  grid-column: span 4;
 }
 
 .div1 {
   background: linen;
+  grid-column: 2/3;
 }
 
 .div2 {
   background: ivory;
 }
 
+img {
+  width: 25vw;
+}
+
 .footer {
   background: lightsalmon;
+  grid-column: span 4;
 }
